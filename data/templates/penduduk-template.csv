@@ -1,0 +1,45 @@
+﻿# Berkas ini adalah TEMPLATE angka penduduk. Isi kolom penduduk dengan angka
+# resmi dari BPS Kota Surabaya atau portal open data Pemerintah Kota Surabaya,
+# lalu impor lewat halaman "Data" pada aplikasi.
+# 
+# Kolom wajib: wilayah, penduduk.
+# Kolom opsional: kecamatan_induk, level (kecamatan/kelurahan), tahun, luas_km2.
+# 
+# Kolom kecamatan_induk hanya perlu diisi untuk kelurahan yang namanya kembar
+# (mis. ada dua kelurahan "Wonorejo": di Kecamatan Rungkut dan Tegalsari).
+# 
+# Nilai kolom "wilayah" di bawah ini sudah diisi dengan nama kecamatan yang
+# benar-benar ada pada batas wilayah, sehingga tidak ada salah ketik nama.
+# Baris penduduk sengaja dibiarkan kosong: angka tidak boleh dikarang.
+wilayah,kecamatan_induk,level,penduduk,tahun,luas_km2
+"Asemrowo","","kecamatan","","",""
+"Benowo","","kecamatan","","",""
+"Bubutan","","kecamatan","","",""
+"Bulak","","kecamatan","","",""
+"Dukuh Pakis","","kecamatan","","",""
+"Gayungan","","kecamatan","","",""
+"Genteng","","kecamatan","","",""
+"Gubeng","","kecamatan","","",""
+"Gunung Anyar","","kecamatan","","",""
+"Jambangan","","kecamatan","","",""
+"Karang Pilang","","kecamatan","","",""
+"Kenjeran","","kecamatan","","",""
+"Krembangan","","kecamatan","","",""
+"Lakarsantri","","kecamatan","","",""
+"Mulyorejo","","kecamatan","","",""
+"Pabean Cantian","","kecamatan","","",""
+"Pakal","","kecamatan","","",""
+"Rungkut","","kecamatan","","",""
+"Sambikerep","","kecamatan","","",""
+"Sawahan","","kecamatan","","",""
+"Semampir","","kecamatan","","",""
+"Simokerto","","kecamatan","","",""
+"Sukolilo","","kecamatan","","",""
+"Sukomanunggal","","kecamatan","","",""
+"Tambaksari","","kecamatan","","",""
+"Tandes","","kecamatan","","",""
+"Tegalsari","","kecamatan","","",""
+"Tenggilis Mejoyo","","kecamatan","","",""
+"Wiyung","","kecamatan","","",""
+"Wonocolo","","kecamatan","","",""
+"Wonokromo","","kecamatan","","",""
