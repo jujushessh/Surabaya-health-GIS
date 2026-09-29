@@ -1,0 +1,43 @@
+{
+  "accessed_at": "2026-09-28",
+  "city": "Kota Surabaya",
+  "autoParsed": false,
+  "reason": "Angka penduduk resmi tidak diambil otomatis. Tabel daring BPS berisi banyak tahun dan kolom yang dapat berubah, sehingga angka yang ditebak berisiko salah. Aplikasi menandai penduduk sebagai \"data tidak tersedia\" sampai Anda mengisi template dan mengimpornya.",
+  "templatePath": "data/templates/penduduk-template.csv",
+  "kecamatanWaiting": [
+    "Asemrowo",
+    "Benowo",
+    "Bubutan",
+    "Bulak",
+    "Dukuh Pakis",
+    "Gayungan",
+    "Genteng",
+    "Gubeng",
+    "Gunung Anyar",
+    "Jambangan",
+    "Karang Pilang",
+    "Kenjeran",
+    "Krembangan",
+    "Lakarsantri",
+    "Mulyorejo",
+    "Pabean Cantian",
+    "Pakal",
+    "Rungkut",
+    "Sambikerep",
+    "Sawahan",
+    "Semampir",
+    "Simokerto",
+    "Sukolilo",
+    "Sukomanunggal",
+    "Tambaksari",
+    "Tandes",
+    "Tegalsari",
+    "Tenggilis Mejoyo",
+    "Wiyung",
+    "Wonocolo",
+    "Wonokromo"
+  ],
+  "problems": [
+    "BPS Kota Surabaya — Kota Surabaya Dalam Angka: HTTP 403"
+  ]
+}
