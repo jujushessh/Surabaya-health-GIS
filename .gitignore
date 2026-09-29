@@ -1,0 +1,18 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vite
+coverage
+
+# Data mentah hasil pengambilan ulang (besar, dapat diambil kembali lewat npm run data:all).
+# Kotak pembatas kota dan ringkasan kecil tetap disimpan karena berguna untuk audit.
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/boundaries-summary.json
+!data/raw/population-status.json
+!data/raw/population-preview.json
+
+# Hasil rakitan di public/data/ IKUT disimpan agar angka dapat diaudit dan
+# aplikasi dapat di-hosting statis tanpa menjalankan skrip data lebih dahulu.
