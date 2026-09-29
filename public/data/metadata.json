@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-28T16:01:29.508Z",
+  "city": {
+    "name": "Kota Surabaya",
+    "bbox": {
+      "minLat": -7.4,
+      "maxLat": -7.13,
+      "minLon": 112.55,
+      "maxLon": 112.95
+    }
+  },
+  "counts": {
+    "kecamatan": 31,
+    "kelurahan": 154,
+    "facilities": 484,
+    "populationApplied": 0
+  },
+  "datasets": [
+    {
+      "id": "boundaries",
+      "title": "Batas wilayah administratif",
+      "source": "OpenStreetMap via Overpass API",
+      "url": "https://www.openstreetmap.org",
+      "license": "ODbL 1.0 — © OpenStreetMap contributors",
+      "accessedAt": "2026-09-28",
+      "recordCount": 185,
+      "notes": [
+        "31 kecamatan, 154 kelurahan"
+      ],
+      "limitations": [
+        "Batas dipetakan komunitas OpenStreetMap dan dapat berbeda sedikit dari batas resmi pemerintah.",
+        "Luas dihitung dari poligon pada bola; nilai resmi bila tersedia disertakan sebagai pembanding.",
+        "Hubungan kelurahan ke kecamatan ditentukan lewat uji ruang, bukan dari tag OpenStreetMap."
+      ]
+    },
+    {
+      "id": "facilities",
+      "title": "Fasilitas kesehatan",
+      "source": "OpenStreetMap via Overpass API",
+      "url": "https://www.openstreetmap.org",
+      "license": "ODbL 1.0 — © OpenStreetMap contributors",
+      "accessedAt": "2026-09-28",
+      "recordCount": 484,
+      "notes": [
+        "Jenis: rumah sakit, klinik/puskesmas, apotek, praktik dokter, pos kesehatan",
+        "11 fasilitas tidak memiliki nama di sumber asal"
+      ],
+      "limitations": [
+        "DATA KOMUNITAS, BUKAN DATA RESMI. OpenStreetMap tidak menjamin kelengkapan maupun ketepatan.",
+        "Fasilitas yang belum dipetakan di OpenStreetMap tidak muncul, sehingga jumlahnya cenderung lebih rendah dari kenyataan.",
+        "Tidak ada informasi kapasitas, jam operasional, atau jenis layanan."
+      ]
+    },
+    {
+      "id": "population",
+      "title": "Jumlah penduduk dan luas wilayah",
+      "source": "Belum tersedia",
+      "url": "https://surabayakota.bps.go.id",
+      "license": "Data BPS — mengikuti ketentuan penggunaan BPS",
+      "accessedAt": null,
+      "recordCount": 0,
+      "notes": [
+        "Angka penduduk belum diisi. Metrik yang memerlukan penduduk ditandai \"data tidak tersedia\".",
+        "Isi data/templates/penduduk-template.csv dari BPS Kota Surabaya lalu impor lewat halaman Data."
+      ],
+      "limitations": [
+        "Tanpa angka penduduk, kepadatan, rasio fasilitas, cakupan berbobot, dan skor prioritas tidak dapat dihitung."
+      ]
+    }
+  ],
+  "quality": {
+    "facilitiesTotal": 484,
+    "facilitiesWithoutName": 11,
+    "facilitiesOutsideBoundary": 0,
+    "facilitiesUnassignedToKelurahan": 40,
+    "regionsWithPopulation": 0,
+    "regionsTotal": 185,
+    "regionsWithAreaMismatch": 0
+  }
+}
