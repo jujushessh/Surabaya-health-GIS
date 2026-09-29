@@ -1,0 +1,30 @@
+# Template fasilitas kesehatan — SIG Sebaran & Aksesibilitas Fasilitas Kesehatan Kota Surabaya
+#
+# Cara pakai:
+#   1. Salin berkas ini, isi satu baris per fasilitas.
+#   2. Impor lewat halaman "Data" pada aplikasi (bagian Impor data).
+#   3. Baris yang tidak valid dilaporkan satu per satu; impor yang gagal
+#      tidak menghapus data yang sudah ada.
+#
+# Aturan kolom:
+#   id        opsional. Bila kosong, dibuat otomatis dari nama. Harus unik.
+#   name      WAJIB. Nama fasilitas.
+#   kind      WAJIB. Salah satu dari: hospital | clinic | pharmacy
+#   lat       WAJIB. Lintang desimal, mis. -7.2458
+#   lon       WAJIB. Bujur desimal, mis. 112.7378
+#   address   opsional. Alamat.
+#   phone     opsional. Nomor telepon.
+#   operator  opsional. Penyelenggara, mis. "Pemerintah Kota", "Swasta".
+#   beds      opsional. Jumlah tempat tidur (bilangan bulat >= 0).
+#
+# Catatan:
+#   - Koordinat harus berada di dalam batas Kota Surabaya. Titik di luar batas
+#     ditolak karena hampir selalu berarti kolom tertukar atau salah salin.
+#   - Pemisah kolom boleh koma atau titik koma. Bila alamat mengandung koma,
+#     apit nilai dengan tanda kutip ganda.
+#   - Contoh baris di bawah adalah data rekaan untuk memperagakan format.
+#     Hapus sebelum mengisi data sesungguhnya.
+id,name,kind,lat,lon,address,phone,operator,beds
+rs-contoh-1,RSUD Contoh,hospital,-7.2458,112.7378,"Jl. Contoh No. 1, Surabaya",031-0000000,Pemerintah Kota,250
+klinik-contoh-1,Klinik Contoh,clinic,-7.2601,112.7502,Jl. Contoh No. 2,,Swasta,
+apotek-contoh-1,Apotek Contoh,pharmacy,-7.2571,112.7481,Jl. Contoh No. 3,,Swasta,
